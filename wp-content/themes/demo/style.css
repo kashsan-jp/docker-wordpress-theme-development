@@ -16,3 +16,42 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box
+}
+h1{
+    color: red;
+}
+.pagination a.next,
+.pagination a.prev {
+    /* width: 40p;
+    height: 40px; */
+    border: none;
+    line-height: 40px;
+    min-width: 40px;
+    width: auto;
+}
+
+.page-numbers{
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    color: #808080;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 14px;
+    min-width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.page-numbers.current{
+    background: #d81f32;
+    border: 1px solid #d81f32;
+    color: #fff;
+    font5-weight: bold;
+}
+
